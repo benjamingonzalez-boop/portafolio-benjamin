@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Benjamin Gonzales · Portafolio</title>
+  <link rel="stylesheet" href="stylles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Benjamin G.<span>  Portafonilio  </span></div>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Más sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div>
+      <h1>Hola, soy <em>Benjamin Gonzales</em><br>Desarrollador de software</h1>
+      <p>Estudiante de Interfacez de Usuario. Construyo aplicaciones en Java, Python y web , con foco en código limpio y buena experiencia de usuario.</p>
+      <a class="btn" href="#proyectos">Ver proyectos</a>
+      <a class="btn ghost" href="#contacto">Contáctame</a>
+    </div>
+    <img src="imagenes/benjamin.png" alt="Foto de Benjamin Gonzales" class="avatar">
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Más sobre mí</h2>
+    <p class="sub">Quién soy, qué estudio y qué me mueve.</p>
+    <div class="about">
+      <div class="card">
+        <h3>🎓 Formación</h3>
+        <p>Carrera :"Diseño de desarrollo de Software", Tecsup y Segunfo ciclo.</p>
+      </div>
+      <div class="card">
+        <h3>💼 Experiencia</h3>
+        <p>No tenga una experiencia previa ,pero tengo muchas ganas de aprender y dar mi mayor esfuerzo ante toda dificultad.</p>
+      </div>
+      <div class="card">
+        <h3>🎯 Objetivos</h3>
+        <p>Qué buscas: prácticas, primer empleo, freelance o seguir creciendo en un área.</p>
+      </div>
+      <div class="card">
+        <h3>✨ Intereses</h3>
+        <p>Tecnología, videojuegos, deportes… lo que te hace único como persona.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades">
+  <h2>Habilidades</h2>
+  <p class="sub">Haz clic en la flecha de cada tecnología para ver los detalles.</p>
+
+  <div class="skills-accordion">
+    <!-- HABILIDAD 1: PYTHON -->
+    <div class="skill-row">
+      <div class="skill-banner">
+        <img src="imagenes/Python imagen.png" alt="Python">
+      </div>
+      <button class="skill-btn" type="button" aria-label="Ver detalles de Python">→</button>
+      <div class="skill-panel">
+        <div class="skill-info">
+          <h3>Python</h3>
+          <p>Desarrollo de scripts de automatización, lógica de programación estructurada, manejo de archivos y conexión con bases de datos.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HABILIDAD 2: HTML, CSS Y JS -->
+    <div class="skill-row">
+      <div class="skill-banner">
+        <img src="imagenes/HTML imagen.png" alt="HTML, CSS y JavaScript">
+      </div>
+      <button class="skill-btn" type="button" aria-label="Ver detalles de Desarrollo Web">→</button>
+      <div class="skill-panel">
+        <div class="skill-info">
+          <h3>HTML5 · CSS3 · JavaScript</h3>
+          <p>Maquetación semántica, diseño responsivo adaptable a móviles (Flexbox y Grid), manipulación del DOM e integración de formularios.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HABILIDAD 3: JAVA -->
+    <div class="skill-row">
+      <div class="skill-banner">
+        <img src="imagenes/Java imagen.png" alt="Java">
+      </div>
+      <button class="skill-btn" type="button" aria-label="Ver detalles de Java">→</button>
+      <div class="skill-panel">
+        <div class="skill-info">
+          <h3>Java</h3>
+          <p>Programación Orientada a Objetos (POO), desarrollo de interfaces de escritorio y gestión de datos mediante JDBC y MySQL.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <p class="sub">Una selección de lo que he construido.</p>
+    <div class="grid3">
+  <div class="card proj">
+    <!-- Verifica en VS Code si es ventas.jpg o ventas.png -->
+    <img src="imagenes/Python imagen Gestion Ventas.jpg" alt="Sistema de Gestión de Ventas" class="thumb-img">
+    <h3>Sistema de Gestión de Ventas</h3>
+    <p>Control de ventas y caja con registro de movimientos.</p>
+    <div class="chips"><span>Python</span><span>Base de Datos</span></div>
+  </div>
+
+  <div class="card proj">
+    <!-- IMAGEN CON ENLACE EXTERNO -->
+    <a href="https://glittering-treacle-f47cc0.netlify.app/" target="_blank" rel="noopener" title="Visitar Web de Academia">
+      <img src="imagenes/academia.png" alt="Web de Academia" class="thumb-img">
+    </a>
+    <h3>Web de academia</h3>
+    <p>Sitio institucional con banner de matrículas y WhatsApp.</p>
+    <div class="chips"><span>HTML</span><span>CSS</span><span>JS</span></div>
+  </div>
+
+  <div class="card proj">
+    <!-- Verifica en VS Code si es veterinaria.jpg o veterinaria.png -->
+    <img src="imagenes/Java Imagen VETERINARIA.jpg" alt="App de Veterinaria" class="thumb-img">
+    <h3>App de veterinaria</h3>
+    <p>Gestión de productos y empleados con base de datos.</p>
+    <div class="chips"><span>Java</span><span>JDBC</span></div>
+  </div>
+</div>
+  </section>
+
+  <section id="testimonios">
+    <h2>Testimonios</h2>
+    <p class="sub">Lo que dicen quienes han trabajado conmigo.</p>
+    <div class="grid3">
+      <div class="card quote">
+        <p>“Escribe aquí un comentario real de un compañero, docente o cliente.”</p>
+        <div class="who">
+          <div class="pic">A</div>
+          <div><b>Nombre</b><br><small>Cargo / relación</small></div>
+        </div>
+      </div>
+      <div class="card quote">
+        <p>“Escribe aquí un comentario real de un compañero, docente o cliente.”</p>
+        <div class="who">
+          <div class="pic">B</div>
+          <div><b>Nombre</b><br><small>Cargo / relación</small></div>
+        </div>
+      </div>
+      <div class="card quote">
+        <p>“Escribe aquí un comentario real de un compañero, docente o cliente.”</p>
+        <div class="who">
+          <div class="pic">C</div>
+          <div><b>Nombre</b><br><small>Cargo / relación</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p class="sub">¿Hablamos? Escríbeme y te respondo pronto.</p>
+    <div class="contact">
+      <div class="card info">
+        <h3>Información</h3>
+        <p>📱 <a class="wa" href="https://wa.me/51999999999" target="_blank" rel="noopener">+51 999 999 999 · WhatsApp</a></p>
+        <p>🕘 Disponibilidad: 9:00 AM – 8:00 PM</p>
+        <p>📍 Lima, Perú</p>
+      </div>
+      <form id="f">
+        <div class="two">
+          <div>
+            <label for="n">Nombre</label>
+            <input id="n" name="nombre" required>
+          </div>
+          <div>
+            <label for="a">Apellido</label>
+            <input id="a" name="apellido" required>
+          </div>
+        </div>
+        <div>
+          <label for="c">Correo</label>
+          <input id="c" name="correo" type="email" required>
+        </div>
+        <div>
+          <label for="m">Consulta</label>
+          <textarea id="m" name="consulta" rows="4" required></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar mensaje</button>
+        <div id="ok" role="status"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer>2026 © Derechos reservados a Gonzales · Creado y desarrollado por Gonzales M.</footer>
+
+  <script src="codigo.js"></script>
+</body>
+</html>
